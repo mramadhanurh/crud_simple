@@ -142,8 +142,19 @@ if(isset($_POST['simpan'])){ //untuk create
                 <div class="col-sm-10">
                     <select class="form-control" name="devisi" id="devisi">
                         <option value="">- Pilih Devisi -</option>
-                        <option value="test" <?php if($devisi == "test") echo "selected"?>>test</option>
-                        <option value="selasa" <?php if($devisi == "selasa") echo "selected"?>>selasa</option>
+                        <option value="Secretary" <?php if($devisi == "Secretary") echo "selected"?>>Secretary</option>
+                        <option value="HR Recruitment" <?php if($devisi == "HR Recruitment") echo "selected"?>>HR Recruitment</option>
+                        <option value="HR Development" <?php if($devisi == "HR Development") echo "selected"?>>HR Development</option>
+                        <option value="Business Development" <?php if($devisi == "Business Development") echo "selected"?>>Business Development</option>
+                        <option value="Digital Marketing" <?php if($devisi == "Digital Marketing") echo "selected"?>>Digital Marketing</option>
+                        <option value="Branding Strategist" <?php if($devisi == "Branding Strategist") echo "selected"?>>Branding Strategist</option>
+                        <option value="Public Relation" <?php if($devisi == "Public Relation") echo "selected"?>>Public Relation</option>
+                        <option value="Fundraising" <?php if($devisi == "Fundraising") echo "selected"?>>Fundraising</option>
+                        <option value="Social Media Specialist" <?php if($devisi == "Social Media Specialist") echo "selected"?>>Social Media Specialist</option>
+                        <option value="Creative Design" <?php if($devisi == "Creative Design") echo "selected"?>>Creative Design</option>
+                        <option value="Video Editor" <?php if($devisi == "Video Editor") echo "selected"?>>Video Editor</option>
+                        <option value="Program Management" <?php if($devisi == "Program Management") echo "selected"?>>Program Management</option>
+                        <option value="Web Development" <?php if($devisi == "Web Development") echo "selected"?>>Web Development</option>
                     </select>
                 </div>
             </div>
