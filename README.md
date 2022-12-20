@@ -1,6 +1,8 @@
 # CRUD simple dari PHP MYSQL
 kamifoundation
 
+Coba langsung pada link : http://kami.jawariwet.my.id/
+
 ![crud](https://user-images.githubusercontent.com/58316058/208585421-304d4d4f-fb32-4ae4-9c39-f5364a690183.png)
 <br>
 #
